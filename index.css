@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'links';
+    src: url(./Fuentes/Oswald-SemiBold.ttf);
+}
+
+
+body {
+    background: rgb(34,87,122);
+background: radial-gradient(circle, rgba(34,87,122,1) 0%, rgba(199,249,204,1) 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin: 10px 25px 10px 25px;
+}
+
+.logo {
+    padding: 10px 25px 10px 25px; 
+    
+}
+
+.logo img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+.links {
+    padding: 10px 25px 10px 25px;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 25px;
+    letter-spacing: 2px;
+    font-family: 'links';
+    color: #22577A;
+    transition: 0.8s;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.links a:hover {
+    background-color: #22577A;
+    color: C7F9CC;
+}
